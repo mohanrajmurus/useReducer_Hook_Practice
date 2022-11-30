@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+}
+.home {
+  width: 30%;
+}
+.cart {
+  width: 70%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
